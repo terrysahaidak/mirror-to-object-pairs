@@ -23,5 +23,9 @@
     "name": "Terry Sahaidak",
     "url": "sahaidak.com"
   },
+  "repository": {
+    "type": "GitHub",
+    "url": "https://github.com/terrysahaidak/mirror-to-object-pairs.git"
+  },
   "license": "MIT"
 }
