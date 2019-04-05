@@ -1,0 +1,27 @@
+{
+  "name": "mirror-to-object-pairs",
+  "version": "1.0.0",
+  "description": "Mirrors array elements as pairs of object key/value.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mirror",
+    "arrays",
+    "keys",
+    "reduce",
+    "events",
+    "screens",
+    "constants",
+    "redux",
+    "flux",
+    "actions"
+  ],
+  "author": {
+    "email": "terry@sahaidak.com",
+    "name": "Terry Sahaidak",
+    "url": "sahaidak.com"
+  },
+  "license": "MIT"
+}
