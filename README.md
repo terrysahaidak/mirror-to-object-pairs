@@ -32,7 +32,7 @@ const pairs = mirror([
   'third',
 ]);
 
-console.log(pairs.TEST) // 'TEST'
+console.log(pairs.FIST) // 'FIST'
 console.log(pairs.SECOND) // 'SECOND'
 console.log(pairs.third) // 'third'
 ```
