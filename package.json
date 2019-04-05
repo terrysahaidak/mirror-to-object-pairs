@@ -1,6 +1,6 @@
 {
   "name": "mirror-to-object-pairs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mirrors array elements as pairs of object key/value.",
   "main": "index.js",
   "scripts": {
