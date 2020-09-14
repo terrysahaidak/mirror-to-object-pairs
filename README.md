@@ -23,7 +23,7 @@ yarn add mirror-to-object-pairs
 To get started, just import package and provide it an array of keys.
 It will generate you paris in object with key/value of each element of passed array.
 
-```js
+```ts
 import mirror from 'mirror-to-object-pairs';
 
 const pairs = mirror([
@@ -35,6 +35,25 @@ const pairs = mirror([
 console.log(pairs.FIRST) // 'FIRST'
 console.log(pairs.SECOND) // 'SECOND'
 console.log(pairs.third) // 'third'
+```
+
+## Usage with TS
+
+```ts
+import mirror from 'mirror-to-object-pairs';
+
+const Screens = mirror([
+  'Login',
+  'App',
+])
+
+type Screens = keyof typeof Screens;
+
+function navigate<T extends Screens>(screenName: T) {
+  // some logic
+}
+
+navigate(screens.Login)
 ```
 
 Library provides typings so it works perfectly with TypeScript projects.
