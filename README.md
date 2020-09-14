@@ -27,12 +27,12 @@ It will generate you paris in object with key/value of each element of passed ar
 import mirror from 'mirror-to-object-pairs';
 
 const pairs = mirror([
-  'FIST',
+  'FIRST',
   'SECOND',
   'third',
 ]);
 
-console.log(pairs.FIST) // 'FIST'
+console.log(pairs.FIRST) // 'FIRST'
 console.log(pairs.SECOND) // 'SECOND'
 console.log(pairs.third) // 'third'
 ```
